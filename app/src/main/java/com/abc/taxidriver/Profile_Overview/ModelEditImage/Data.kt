@@ -1,0 +1,31 @@
+package com.abc.taxidriver.Profile_Overview.ModelEditImage
+
+data class Data(
+    val address: String,
+    val created_date: String,
+    val device_id: String,
+    val device_tokanid: String,
+    val driver_status: String,
+    val driving_license: String,
+    val earn_type: String,
+    val email: String,
+    val gender: String,
+    val id: String,
+    val language: String,
+    val latitude: String,
+    val location_name: String,
+    val longitude: String,
+    val name: String,
+    val otp: String,
+    val pan_card: String,
+    val phone_no: String,
+    val profile_photo: String,
+    val reistration_certificate: String,
+    val status: String,
+    val step: String,
+    val vehcile_insurence: String,
+    val vehicle_image: Any,
+    val vehicle_name: Any,
+    val vehicle_no: Any,
+    val vehicle_permit: String
+)

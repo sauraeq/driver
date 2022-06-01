@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/white_shape"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="@string/cancelride"/>
+    <LinearLayout
+        android:id="@+id/llCancelReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <include layout="@layout/cancel_reason_row"/>
+        <include layout="@layout/cancel_reason_row"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    <RelativeLayout
+        android:id="@+id/rlRider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/rider"
+            android:textColor="@color/gray4"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivRider"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/white_circleoption" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="1dp"
+        android:background="@color/gray4" />
+
+    <RelativeLayout
+        android:id="@+id/rlWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/wrongaddress"
+            android:textColor="@color/gray4"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivWrong"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/white_circleoption" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="1dp"
+        android:background="@color/gray4" />
+
+    <RelativeLayout
+        android:id="@+id/rlCharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/dontcharge"
+            android:textColor="@color/gray4"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivCharge"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/white_circleoption"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="1dp"
+        android:background="@color/gray4" />
+
+    <RelativeLayout
+        android:id="@+id/rlLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/nolocation"
+            android:textColor="@color/gray4"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivLocation"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/white_circleoption"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/gray4" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCancelRide"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/cancelride"
+        android:textSize="15sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">ABC Taxi Driver</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="name">Name</string>
+    <string name="drivername">Driver Name</string>
+    <string name="email">Email</string>
+    <string name="emailid">Email Id.</string>
+    <string name="address">Address</string>
+    <string name="vehicletype">Vehicle Type</string>
+    <string name="vehicleno">Vehicle No.</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="get_stat">Get Started</string>
+    <string name="licence">Licence</string>
+    <string name="drivelicence">Driver Licence</string>
+    <string name="vehiclelicence">Vehicle Licence</string>
+    <string name="yes">Yes,Cancel</string>
+    <string name="no">No</string>
+    <string name="it_is">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="logout">Log Out</string>
+    <string name="submit">Submit</string>
+    <string name="ok">Okay</string>
+    <string name="setting">Settings</string>
+    <string name="notify">Notification</string>
+    <string name="this_will">This will not affect any order updates</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="your_earn">Your Earnings</string>
+    <string name="profile">Profile Overview</string>
+    <string name="welcome">Welcome to</string>
+    <string name="map_credential">AIzaSyAKV5mMwONFDI_qwVN_ro1zdMkH-rQYQvk</string>
+    <string name="mob_num">Mobile Number</string>
+    <string name="phoneno">Phone No.</string>
+    <string name="next">Next</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="clicking"> By clicking Sign Up, you agree to our <b>Terms &amp; Conditions</b> </string>
+
+    <string name="or_signup">Or Sign Up With</string>
+    <string name="log_in">Login to your account! </string>
+    <string name="title_activity_dashboard_maps">DashboardMapsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_dashboard_q">MapsDashboard</string>
+    <string name="title_activity_map_dash_board">Map_DashBoard</string>
+    <string name="notifications">Notifications</string>
+    <string name="termCondition">Terms &amp; Condition</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="helpSupport">Help &amp; Support</string>
+    <string name="choselanguage">Choose Language</string>
+    <string name="english">English</string>
+    <string name="german">German French</string>
+    <string name="italian">Italian</string>
+    <string name="russia">Russian</string>
+    <string name="arabic">Arabic</string>
+    <string name="spanish">Spanish Albanian</string>
+    <string name="polish">Polish</string>
+    <string name="alreadyaccount">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="enterotp">Enter Your OTP  code here</string>
+    <string name="accountadd">Account Add Successfully !</string>
+    <string name="addsuccessfull">Your Account has been Added successfully.</string>
+    <string name="save">Save</string>
+    <string name="gender">Gender</string>
+    <string name="selectgender">Select Gender</string>
+    <string name="pickup">PICK UP</string>
+    <string name="drop">DROP</string>
+    <string name="totalcollect">Total Collect Cash </string>
+    <string name="receivingcash">Receiving by cash</string>
+    <string name="paidsuccessfully">Your payment has been paid successfully.</string>
+    <string name="rider">Rider isn’t here</string>
+    <string name="wrongaddress">Worng address show</string>
+    <string name="dontcharge">Don\'t charge rider</string>
+    <string name="nolocation">No location show</string>
+    <string name="cancelride">Cancel Ride</string>
+    <string name="paymentsuccessful">Payment Successful !</string>
+    <string name="youareonline">You are online</string>
+    <string name="cancel">Cancel</string>
+    <string name="acceptride">Accept Ride</string>
+    <string name="youareoffline">You are offline</string>
+    <string name="accept">Acceptance</string>
+    <string name="rating">Rating</string>
+    <string name="cancelation">Cancelation</string>
+    <string name="sendsuccessfully">Send Successfully !</string>
+    <string name="msgsend">Your Message has been Send successfully.</string>
+    <string name="pickingup">Picking up Ankur Saxena</string>
+    <string name="complete">Complete</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="totalride">Total ride</string>
+    <string name="onlinehrs">Online hrs</string>
+    <string name="totalearning">Total earning</string>
+    <string name="total">TOTAL</string>
+    <string name="done">Done</string>
+    <string name="phoneverify">Phone Verification</string>
+    <string name="callus">Call Us</string>
+    <string name="emailus">Email Us</string>
+    <string name="chat">Chat</string>
+    <string name="quickcontact">Quick Contact</string>
+    <string name="enterfullname">Enter Full Name Here</string>
+    <string name="enteremail">Enter Email Address</string>
+    <string name="itis">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+   <string name="plzname">Please Enter Name</string>
+   <string name="plzdrivename">Please Enter Driver Name</string>
+   <string name="plzemail">Please Enter Email Id</string>
+   <string name="plzevalidmail">Please Enter Valid Email Id</string>
+   <string name="plzevehicletype">Please Enter Vehicle Type</string>
+   <string name="plzevehicleno">Please Enter Vehicle No.</string>
+   <string name="plzaddress">Please Enter Address</string>
+   <string name="plzmsg">Please Enter Message</string>
+   <string name="plzlicence">Please select licence</string>
+   <string name="plzdriverlicence">Please select driver licence</string>
+   <string name="plzvehlicence">Please select vehicle licence</string>
+   <string name="plzterms">Please accept Terms &amp; Condition </string>
+   <string name="plzmobile">Please Enter Phone Number</string>
+   <string name="distance">Distance</string>
+   <string name="time">Time</string>
+   <string name="price">Price</string>
+   <string name="start">Start Ride</string>
+   <string name="completeride">Complete Ride</string>
+   <string name="norecordfound">No Record found</string>
+   <string name="plzreason">Please select reason</string>
+   <string name="plzotp">Please Enter 4 digit otp</string>
+   <string name="plzvalidotp">OTP does not match</string>
+   <string name="plzgender">Please Select Gender</string>
+    <string name="No_Internet">No Internet</string>
+    <string name="mobnum">Mobile number is already exit</string>
+<!--    <string name="en">English</string>-->
+
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+<!--        <item>Python</item>-->
+<!--        <item>CPP</item>-->
+    </string-array>
+
+
+    <style name="CustomTextInputEditText">
+
+        <item name="android:paddingEnd">50dp</item>
+    </style>
+</resources>
